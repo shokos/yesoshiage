@@ -15,3 +15,7 @@ getRootR = do
         h2id <- lift newIdent
         setTitle "yesoshiage homepage"
         $(widgetFile "homepage")
+
+postMailpageR :: Handler RepHtml
+postMailpageR = do
+	address <- runInputPost

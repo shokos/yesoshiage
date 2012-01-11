@@ -1,0 +1,6 @@
+<h1>_{MsgHello}
+address
+<form method=post action=@{mailpageR}
+	<textarea.address name=address>
+	<br>
+	<input type=submit value="address"
